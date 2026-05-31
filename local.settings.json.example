@@ -1,0 +1,23 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+
+    "OPTIMIZER_SCHEDULE": "0 0 * * * *",
+    "OPTIMIZER_DRY_RUN": "true",
+
+    "KEY_VAULT_URI": "",
+    "ECOBEE_CLIENT_ID_SECRET": "ecobee-client-id",
+    "ECOBEE_REFRESH_TOKEN_SECRET": "ecobee-refresh-token",
+
+    "ECOBEE_CLIENT_ID": "PASTE_FOR_LOCAL_DEV_ONLY",
+    "ECOBEE_REFRESH_TOKEN": "PASTE_FOR_LOCAL_DEV_ONLY",
+    "ECOBEE_SELECTION_MATCH": "",
+
+    "SWITCH_BAND_F": "1.0",
+    "ENABLE_OUTDOOR_GUARD": "true",
+    "COOL_MIN_OUTDOOR_F": "50",
+    "HEAT_MAX_OUTDOOR_F": "80"
+  }
+}

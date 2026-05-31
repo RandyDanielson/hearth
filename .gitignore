@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Azure Functions
+local.settings.json
+bin/
+obj/
+.python_packages/
+azure-functions-core-tools/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
